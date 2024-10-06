@@ -125,7 +125,7 @@ function calculation(entered)
 
 button[1].addEventListener("click", () => {
     let value=button[1].innerText;
-    store('1/100');
+    store('/100');
     show(value);
     console.log(value);
 })
